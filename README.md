@@ -1,4 +1,4 @@
-# JavaScript Notes
+# welcome
 
 Welcome to the JavaScript Notes repository! This collection of notes covers various JavaScript concepts, 
 including control flow, arrays, objects, functions, and more. Whether you are a beginner looking to learn JavaScript or a developer wanting to revise key concepts, these notes can serve as a handy reference.
