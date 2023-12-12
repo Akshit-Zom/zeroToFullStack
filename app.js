@@ -1,6 +1,7 @@
 /****************************************************************************************************/
 /* ----------------------------------------------------------------------------------------------------
-    NOTE: TO USE ANY BLOCK OF CODE JUST SELECT THE CODE ( CTRL+CLICK ) AND PRESS " CTRL + / " 
+    NOTE: TO USE ANY BLOCK OF CODE JUST SELECT THE CODE ( CTRL + CLICK ) AND PRESS " CTRL + / " 
+                                HAVE WONDERFUL LEARNING
 --------------------------------------------------------------------------------------------------*/
 /****************************************************************************************************/
 
@@ -10,7 +11,7 @@
 
 // Methods are functions that belong to objects, providing functionality or performing actions.
 
-// const person = {
+// const person = {]
 //   name: "Akshit",
 //   age: 24,
 //   learningMethodFunc: function () {
@@ -316,5 +317,67 @@
 // destFunction(options);
 
 /* ----------------------------------------
-  Ternary Operator
+     Ternary Operator
 ---------------------------------------- */
+//Only operator in js that take three operand
+// condition ? exprIfTrue : expreIfFlase
+// Shorter way to write if and else
+
+// const person = true;
+// const ternanryOperator =
+//   person === true ? "Buy Product" : "Please start working";
+// console.log(ternanryOperator);
+
+/* ----------------------------------------
+    For...in loop
+---------------------------------------- */
+// itetrate through all the properties/index/etc in obj/arrays/etc
+//SYNTAX: for (let "varibaleName" in "object"){};
+
+// const object = { a: 1, b: 2, c: 3 };
+// for (let keys in object) {
+//   // keys will store and objects
+//   console.log(`${keys}: ${object[keys]}`); //passing objects one by one
+// }
+
+/* ----------------------------------------
+    For...of loop
+---------------------------------------- */
+//easy way to loop over elements directly over the values of the elements, rather
+// than dealing with their indices or keys
+
+// const array1 = ["a", "b", "c"];
+
+// for (let index of array1) {
+//   console.log(index);
+// }
+
+/* ----------------------------------------
+    forEach function 
+---------------------------------------- */
+//advance array method to itterate through each element in an array
+//functions will run through for each element
+//modifies the original array
+
+// const number = [1, 2, 3, 4, 5];
+// let sum = 0;
+// number.forEach(
+//   (adder = (number) => {
+//     sum = sum + number;
+//     return sum;
+//   })
+// );
+// console.log(sum);
+
+/* ----------------------------------------
+    map() 
+---------------------------------------- */
+//Iterate through each element in an array
+//works exactly like forEach() but it does not modify the original array instead
+//will create an new array
+
+let originalArray = [1, 2, 3, 4, 5];
+let moifiedArray = originalArray.map((index) => index * 2);
+console.log(
+  `This is original Array: ${originalArray}, This is modified array: ${moifiedArray}`
+);
