@@ -491,7 +491,7 @@
 // ? | **GitHub Username** | **Contribution** |
 //   |----------------------|------------------|
 //   | [Akshit Negi ](https://github.com/Akshit-Zom) | Created initial JavaScript notes structure. | // !Example
-//   ...
+//   | ...
 
 //* Feel free to add your name and GitHub profile if you have contributed to this project. Your efforts are greatly appreciated! You are AWSOME
 
