@@ -1,12 +1,14 @@
 /****************************************************************************************************/
 /* ----------------------------------------------------------------------------------------------------
-    NOTE: TO USE ANY BLOCK OF CODE JUST SELECT THE CODE ( CTRL + CLICK ) AND PRESS " CTRL + / " 
-                                HAVE WONDERFUL LEARNING
+                                            !  NOTE !
+   * * TO USE ANY BLOCK OF CODE JUST SELECT THE CODE ( CTRL (DRAG TO SELECT) + CLICK ) AND PRESS CTRL + / 
+   * * USING prettier EXTENSION IS HIGHLY RECOMMNDED FOR EASY AND CLEAN CODING
+                                   ? HAVE WONDERFUL LEARNING
 --------------------------------------------------------------------------------------------------*/
 /****************************************************************************************************/
 
 /* ----------------------------------------
-    METHODS
+?     METHODS
 ---------------------------------------- */
 
 // Methods are functions that belong to objects, providing functionality or performing actions.
@@ -352,8 +354,9 @@
 //   console.log(index);
 // }
 //---------------------------------------------------------------------------------------------
-//                              ARRAY METHODS
+//                              ARRAY FUNCTIONS
 //---------------------------------------------------------------------------------------------
+//NOTE: REVISE CALL BACK FUNCTION AND ARROW FUNCTION FOR THIS PART
 /* ----------------------------------------
     forEach function 
 ---------------------------------------- */
@@ -416,4 +419,35 @@
 //array method that returns the first element
 //in the array that satisfies the provided testing function,
 //or undefined if no element is found
-//NOTE: Will only work once as soon as condition === true it will exit the function and return the true value
+//NOTE: Will only work once as soon as condition === true it will exit the function
+
+// const ages = [3, 10, 18, 20, 25];
+// console.log(ages.find((index) => index > 18));
+//and return the true value
+
+// let products = [
+//   { name: "Checkers", category: "Toys" },
+//   { name: "Harry Potter", category: "Books" },
+//   { name: "iPhone", category: "Electronics" },
+//   { name: "Learn PHP", category: "Books" },
+// ];
+
+// const catergoryBooks = products.find((index) => index.category === "Books");
+// console.log(catergoryBooks);
+
+//--------------------------------END OF ARRAY FUNCTIONS-------------------------------------------------------------
+
+/*---------------------------------------------------------------------------------------------
+                                     ARRAY METHOD
+---------------------------------------------------------------------------------------------*/
+/* ----------------------------------------
+    every()
+---------------------------------------- */
+//Run condition for every element in an array and check the condition for every iteration
+//all the elements should match the condition for function to be true (Boolean)
+
+/* ----------------------------------------
+    some()
+---------------------------------------- */
+//Run condition for every element in an array and check the condition for every iteration
+//One of item can be true for the function to return true (Boolean)
