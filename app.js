@@ -351,7 +351,9 @@
 // for (let index of array1) {
 //   console.log(index);
 // }
-
+//---------------------------------------------------------------------------------------------
+//                              ARRAY METHODS
+//---------------------------------------------------------------------------------------------
 /* ----------------------------------------
     forEach function 
 ---------------------------------------- */
@@ -376,8 +378,42 @@
 //works exactly like forEach() but it does not modify the original array instead
 //will create an new array
 
-let originalArray = [1, 2, 3, 4, 5];
-let moifiedArray = originalArray.map((index) => index * 2);
-console.log(
-  `This is original Array: ${originalArray}, This is modified array: ${moifiedArray}`
-);
+// let originalArray = [1, 2, 3, 4, 5];
+// let moifiedArray = originalArray.map((index) => index * 2);
+// console.log(
+//   `This is original Array: ${originalArray}, This is modified array: ${moifiedArray}`
+// );
+
+// const randomArray = [2, 4, 1, 2, 45, 2];
+// const muilitplication = randomArray.map((index) => index * 10);
+// console.log(muilitplication);
+
+/* ----------------------------------------
+    filter()
+---------------------------------------- */
+//built in array method which allow us to create a new array containing elements that
+//passes a certain condition
+//It provides a clean and concise way to filter out elements
+
+// const ages = [32, 33, 16, 40];
+// const adults = ages.filter((age) => age > 18);
+// console.log(adults);
+
+// const words = [
+//   "spray",
+//   "limit",
+//   "elite",
+//   "exuberant",
+//   "destruction",
+//   "present",
+// ];
+
+// console.log(words.filter((index) => index.length > 6));
+
+/* ----------------------------------------
+    find()
+---------------------------------------- */
+//array method that returns the first element
+//in the array that satisfies the provided testing function,
+//or undefined if no element is found
+//NOTE: Will only work once as soon as condition === true it will exit the function and return the true value
