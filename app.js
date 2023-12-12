@@ -475,10 +475,34 @@
 //* It takes all the array element and combine into one array
 //* [p + c] p: previous value, c: current value
 
-const numbers = [1, 2, 3, 4, 5];
-const sum = numbers.reduce((p, c) => {
-  console.log(`Previous: ${p}`); //previous value 0
-  console.log(`Current: ${c}`); //current value 1
-  return p + c;
-}, 0);
-console.log(sum);
+// const numbers = [1, 2, 3, 4, 5];
+// const sum = numbers.reduce((p, c) => {
+//   console.log(`Previous: ${p}`); //previous value 0
+//   console.log(`Current: ${c}`); //current value 1
+//   return p + c;
+// }, 0);
+// console.log(sum);
+
+//TODO ****************************************************************************************************/
+
+//!                                              CONTRIBUTORS
+//* Special thanks to the following contributors who have helped improve and expand these JavaScript notes:
+
+// ? | **GitHub Username** | **Contribution** |
+//   |----------------------|------------------|
+//   | [Akshit Negi ](https://github.com/Akshit-Zom) | Created initial JavaScript notes structure. | // !Example
+//   ...
+
+//* Feel free to add your name and GitHub profile if you have contributed to this project. Your efforts are greatly appreciated! You are AWSOME
+
+//! Comments
+//* Have feedback, suggestions, or just want to leave an appreciation message? Feel free to add your comment below!
+
+// | **GitHub Username** | **Comment** |
+// |----------------------|-------------|
+// | [User1](https://github.com/user1) | Great work on this repository! I found the notes very helpful. |
+// | ...
+
+//* Feel free to add your comments and feedback below. Your thoughts are important to us!
+
+//TODO ****************************************************************************************************/
