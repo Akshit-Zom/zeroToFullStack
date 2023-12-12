@@ -1,17 +1,18 @@
-/****************************************************************************************************/
+//TODO ****************************************************************************************************/
 /* ----------------------------------------------------------------------------------------------------
                                             !  NOTE !
    * * TO USE ANY BLOCK OF CODE JUST SELECT THE CODE ( CTRL (DRAG TO SELECT) + CLICK ) AND PRESS CTRL + / 
-   * * USING prettier EXTENSION IS HIGHLY RECOMMNDED FOR EASY AND CLEAN CODING
-                                   ? HAVE WONDERFUL LEARNING
+   * * USING esbenp.prettier-vscode EXTENSION IS HIGHLY RECOMMNDED FOR EASY AND CLEAN CODING
+   * * FOR HIGHLIGHT I'VE USED aaron-bond.better-comments, DO INSTALL IT BEFORE STARTING
+                                   ? HAVE WONDERFUL LEARNING ?
 --------------------------------------------------------------------------------------------------*/
-/****************************************************************************************************/
+//TODO ****************************************************************************************************/
 
 /* ----------------------------------------
 ?     METHODS
 ---------------------------------------- */
 
-// Methods are functions that belong to objects, providing functionality or performing actions.
+//* Methods are functions that belong to objects, providing functionality or performing actions.
 
 // const person = {]
 //   name: "Akshit",
@@ -23,10 +24,10 @@
 // console.log(person);
 
 /* ----------------------------------------
-      CONTROL FLOW
+?           CONTROL FLOW
   ---------------------------------------- */
 
-// Control flow statements, like if-else and switch, determine the order in which statements are executed.
+//* Control flow statements, like if-else and switch, determine the order in which statements are executed.
 
 // Example (if-else):
 // let password = "aaaaaaaa";
@@ -52,19 +53,19 @@
 // }
 
 /* ----------------------------------------
-      ARRAYS
+?      ARRAYS
   ---------------------------------------- */
 
-// Arrays are ordered lists that can store multiple values, accessed by an index.
+//* Arrays are ordered lists that can store multiple values, accessed by an index.
 
 // const favSingers = ["dababy", "adele", "juice wrld"];
 // console.log(favSingers[0]);
 
 /* ----------------------------------------
-      OBJECTS
+?      OBJECTS
   ---------------------------------------- */
 
-// Objects are collections of key-value pairs and can represent entities with properties and methods.
+//* Objects are collections of key-value pairs and can represent entities with properties and methods.
 
 // const car = {
 //   type: "bigCar",
@@ -76,10 +77,10 @@
 // console.log(car);
 
 /* ----------------------------------------
-      FUNCTIONS
+ ?     FUNCTIONS
   ---------------------------------------- */
 
-// Functions are blocks of reusable code.
+//* Functions are blocks of reusable code.
 
 // Function declaration:
 // function myFunction(x, y) {
@@ -87,17 +88,17 @@
 // }
 // console.log(myFunction(2, 2));
 
-// // Function expression:
+// Function expression:
 // const expressionFunc = function (x, y) {
 //   return x * y;
 // };
 // console.log(expressionFunc(2, 2));
 
 /* ----------------------------------------
-      CALLBACK FUNCTION
+?      CALLBACK FUNCTION
   ---------------------------------------- */
 
-// Callback functions are functions passed as arguments to another function.
+//* Callback functions are functions passed as arguments to another function.
 
 // function mainFunc(name, callBackFunction) {
 //   console.log(`My name is ${name}`);
@@ -109,15 +110,15 @@
 // mainFunc("Akshit", callBackFunction);
 
 /* ----------------------------------------
-    SCOPES
+?    SCOPES
 ---------------------------------------- */
 
-// Scopes determine the visibility and accessibility of variables.
+//* Scopes determine the visibility and accessibility of variables.
 
 // Global scope:
 // let globalVariable = "I'm global";
 
-// // Local scope:
+// Local scope:
 // function localScopeFunction() {
 //   let localVariable = "I'm local";
 //   console.log(globalVariable); // Accessible
@@ -127,10 +128,10 @@
 // console.log(localVariable);  // Not accessible
 
 /* ----------------------------------------
-    METHOD
+?    METHOD
 ---------------------------------------- */
 
-// Methods are functions that are part of an object, providing functionality or actions.
+//* Methods are functions that are part of an object, providing functionality or actions.
 
 // const person = {
 //   name: "Akshit",
@@ -143,10 +144,10 @@
 // console.log(person);
 
 /* ----------------------------------------
-    JSON (JavaScript Object Notation)
+?   JSON (JavaScript Object Notation)
 ---------------------------------------- */
 
-// JSON is a lightweight data-interchange format.
+//* JSON is a lightweight data-interchange format.
 
 // Example JSON string:
 // {
@@ -164,17 +165,17 @@
     DATE AND TIME
 ---------------------------------------- */
 
-// Date and Time objects in JavaScript.
+//* Date and Time objects in JavaScript.
 
 // const date = new Date();
 // const todayDaye = date.getDate();
 // console.log(`Today's Date is : ${todayDaye}`);
 
 /* ----------------------------------------
-    SET INTERVAL AND SET TIMEOUT
+?    SET INTERVAL AND SET TIMEOUT
 ---------------------------------------- */
 
-// Functions for executing code at specified intervals.
+//* Functions for executing code at specified intervals.
 
 // setInterval(() => {
 //   console.log("Repeated code every 1000 milliseconds");
@@ -185,10 +186,10 @@
 // }, 2000);
 
 /* ----------------------------------------
-    TEMPLATE LITERAL
+?    TEMPLATE LITERAL
 ---------------------------------------- */
 
-// Template literals are string literals allowing embedded expressions.
+//* Template literals are string literals allowing embedded expressions.
 
 // let firstName = "Akshit";
 // let lastName = "Negi";
@@ -198,10 +199,10 @@
 // the lazy dog. ${firstName} ${lastName}`);
 
 /* ----------------------------------------
-    ARROW FUNCTION
+?    ARROW FUNCTION
 ---------------------------------------- */
 
-// Arrow functions provide a concise syntax for writing function expressions.
+//* Arrow functions provide a concise syntax for writing function expressions.
 
 // greet = (user) => {
 //   return `Hello ${user}`;
@@ -225,10 +226,10 @@
 // }, 2000);
 
 /* ----------------------------------------
-    ES6 ENHANCED OBJECT LITERALS
+?    ES6 ENHANCED OBJECT LITERALS
 ---------------------------------------- */
 
-// Enhanced object literals provide shorthand syntax for object creation.
+//* Enhanced object literals provide shorthand syntax for object creation.
 
 // const createShape = (type, width, height) => {
 //   return {
@@ -247,7 +248,7 @@
 //   };
 // };
 
-// // Example usage:
+//* Example usage:
 // const rectangle = createShape("rectangle", 5, 10);
 // console.log(rectangle.calculateArea()); // Output: The area of the rectangle is 50
 
@@ -255,10 +256,10 @@
 // console.log(circle.calculateArea()); // Output: The area of the circle is approximately 153.94
 
 /* ----------------------------------------
-    DEFAULT FUNCTION PARAMETERS
+?    DEFAULT FUNCTION PARAMETERS
 ---------------------------------------- */
 
-// Default function parameters allow specifying default values for parameters.
+//* Default function parameters allow specifying default values for parameters.
 
 // multiply = (a, b = 1) => {
 //   return a * b;
@@ -266,10 +267,10 @@
 // console.log(multiply(4));
 
 /* ----------------------------------------
-    SPREAD OPERATOR
+?    SPREAD OPERATOR
 ---------------------------------------- */
 
-// The spread operator (...) in JavaScript is a versatile syntax for expanding iterable elements.
+//* The spread operator (...) in JavaScript is a versatile syntax for expanding iterable elements.
 
 // Arrays:
 // const arrayOne = [1, 2, 3];
@@ -284,10 +285,10 @@
 // console.log(combineObj);
 
 /* ----------------------------------------
-    REST OPERATOR
+?    REST OPERATOR
 ---------------------------------------- */
 
-// The rest operator (...) in JavaScript is used in function parameters or array destructuring.
+//* The rest operator (...) in JavaScript is used in function parameters or array destructuring.
 // It allows representing an indefinite number of arguments or elements as an array.
 
 // unlimited = (...para) => {
@@ -296,22 +297,22 @@
 // unlimited("hello", "world", "how's", "it", "going");
 
 /* ----------------------------------------
-    DESTRUCTURING
+?    DESTRUCTURING
 ---------------------------------------- */
 
-// Destructuring simplifies extracting values from arrays or properties from objects.
+//* Destructuring simplifies extracting values from arrays or properties from objects.
 
-// Array Destructuring:
+//** Array Destructuring:
 // const numbers = [1, 2, 3];
 // const [a, b, c] = numbers;
 // console.log(a, b, c);
 
-// Object Destructuring:
+//** Object Destructuring:
 // const person = { name: "Akshit", lastname: "Negi", work: "Student" };
 // const { name, work } = person;
 // console.log(name, work);
 
-// Function Parameter Destructuring:
+//** Function Parameter Destructuring:
 // destFunction = ({ name, age, country }) => {
 //   console.log(`Name: ${name}, age:${age}, country:${country}`);
 // };
@@ -319,9 +320,9 @@
 // destFunction(options);
 
 /* ----------------------------------------
-     Ternary Operator
+?     Ternary Operator
 ---------------------------------------- */
-//Only operator in js that take three operand
+//*Only operator in js that take three operand
 // condition ? exprIfTrue : expreIfFlase
 // Shorter way to write if and else
 
@@ -331,22 +332,22 @@
 // console.log(ternanryOperator);
 
 /* ----------------------------------------
-    For...in loop
+?    For...in loop
 ---------------------------------------- */
-// itetrate through all the properties/index/etc in obj/arrays/etc
-//SYNTAX: for (let "varibaleName" in "object"){};
+//* itetrate through all the properties/index/etc in obj/arrays/etc
+//*SYNTAX: for (let "varibaleName" in "object"){};
 
 // const object = { a: 1, b: 2, c: 3 };
 // for (let keys in object) {
-//   // keys will store and objects
+// keys will store and objects
 //   console.log(`${keys}: ${object[keys]}`); //passing objects one by one
 // }
 
 /* ----------------------------------------
-    For...of loop
+?    For...of loop
 ---------------------------------------- */
-//easy way to loop over elements directly over the values of the elements, rather
-// than dealing with their indices or keys
+//* easy way to loop over elements directly over the values of the elements, rather
+//* than dealing with their indices or keys
 
 // const array1 = ["a", "b", "c"];
 
@@ -354,15 +355,15 @@
 //   console.log(index);
 // }
 //---------------------------------------------------------------------------------------------
-//                              ARRAY FUNCTIONS
+// TODO                             ARRAY FUNCTIONS
 //---------------------------------------------------------------------------------------------
-//NOTE: REVISE CALL BACK FUNCTION AND ARROW FUNCTION FOR THIS PART
+//! NOTE: REVISE CALL BACK FUNCTION AND ARROW FUNCTION FOR THIS PART
 /* ----------------------------------------
-    forEach function 
+?    forEach function 
 ---------------------------------------- */
-//advance array method to itterate through each element in an array
-//functions will run through for each element
-//modifies the original array
+//* advance array method to itterate through each element in an array
+//* functions will run through for each element
+//* modifies the original array
 
 // const number = [1, 2, 3, 4, 5];
 // let sum = 0;
@@ -375,11 +376,11 @@
 // console.log(sum);
 
 /* ----------------------------------------
-    map() 
+?    map() 
 ---------------------------------------- */
-//Iterate through each element in an array
-//works exactly like forEach() but it does not modify the original array instead
-//will create an new array
+//* Iterate through each element in an array
+//* works exactly like forEach() but it does not modify the original array instead
+//* will create an new array
 
 // let originalArray = [1, 2, 3, 4, 5];
 // let moifiedArray = originalArray.map((index) => index * 2);
@@ -392,11 +393,11 @@
 // console.log(muilitplication);
 
 /* ----------------------------------------
-    filter()
+?    filter()
 ---------------------------------------- */
-//built in array method which allow us to create a new array containing elements that
-//passes a certain condition
-//It provides a clean and concise way to filter out elements
+//* built in array method which allow us to create a new array containing elements that
+//* passes a certain condition
+//* It provides a clean and concise way to filter out elements
 
 // const ages = [32, 33, 16, 40];
 // const adults = ages.filter((age) => age > 18);
@@ -414,12 +415,12 @@
 // console.log(words.filter((index) => index.length > 6));
 
 /* ----------------------------------------
-    find()
+?    find()
 ---------------------------------------- */
-//array method that returns the first element
-//in the array that satisfies the provided testing function,
-//or undefined if no element is found
-//NOTE: Will only work once as soon as condition === true it will exit the function
+//* array method that returns the first element
+//* in the array that satisfies the provided testing function,
+//* or undefined if no element is found
+//* NOTE: Will only work once as soon as condition === true it will exit the function
 
 // const ages = [3, 10, 18, 20, 25];
 // console.log(ages.find((index) => index > 18));
@@ -438,16 +439,46 @@
 //--------------------------------END OF ARRAY FUNCTIONS-------------------------------------------------------------
 
 /*---------------------------------------------------------------------------------------------
-                                     ARRAY METHOD
+//TODO                                    ARRAY METHOD
 ---------------------------------------------------------------------------------------------*/
 /* ----------------------------------------
-    every()
+?    every()
 ---------------------------------------- */
 //Run condition for every element in an array and check the condition for every iteration
 //all the elements should match the condition for function to be true (Boolean)
 
 /* ----------------------------------------
-    some()
+?    some()
 ---------------------------------------- */
-//Run condition for every element in an array and check the condition for every iteration
-//One of item can be true for the function to return true (Boolean)
+//* Run condition for every element in an array and check the condition for every iteration
+//* One of item can be true for the function to return true (Boolean)
+
+//* every() and some() code
+
+// let products = [
+//   { name: "Checkers", category: "Toys" },
+//   { name: "Harry Potter", category: "Books" },
+//   { name: "iPhone", category: "Electronics" },
+//   { name: "Learn PHP", category: "Books" },
+// ];
+
+// const everyMethod = products.every((index) => index.category === "Books");
+// const someMethod = products.some((index) => index.category === "Books");
+
+// console.log(
+//   `every() Method o/p: ${everyMethod}\nsome() methods o/p: ${someMethod}`
+// );
+
+/* ----------------------------------------
+?    reduce()
+---------------------------------------- */
+//* It takes all the array element and combine into one array
+//* [p + c] p: previous value, c: current value
+
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((p, c) => {
+  console.log(`Previous: ${p}`); //previous value 0
+  console.log(`Current: ${c}`); //current value 1
+  return p + c;
+}, 0);
+console.log(sum);
