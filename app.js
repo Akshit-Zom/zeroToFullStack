@@ -162,7 +162,7 @@
 // }
 
 /* ----------------------------------------
-    DATE AND TIME
+?    DATE AND TIME
 ---------------------------------------- */
 
 //* Date and Time objects in JavaScript.
@@ -483,6 +483,39 @@
 // }, 0);
 // console.log(sum);
 
+// const numbers = [3, 4, 5, 6, 5, 5];
+// calculatedProduct = (number) => {
+//   return number.reduce((p, c) => p * c);
+// };
+
+// const sum = calculatedProduct(numbers);
+// console.log(sum);
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
 //TODO ****************************************************************************************************/
 
 //!                                              CONTRIBUTORS
@@ -500,7 +533,7 @@
 
 // | **GitHub Username** | **Comment** |
 // |----------------------|-------------|
-// | [User1](https://github.com/user1) | Great work on this repository! I found the notes very helpful. |
+// | [User1](https://github.com/user1) | Great work on this repository! I found the notes very helpful. | // !Example
 // | ...
 
 //* Feel free to add your comments and feedback below. Your thoughts are important to us!
